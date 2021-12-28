@@ -21,10 +21,10 @@ async def start(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "Group 💬", url="https://t.me/Its_Fuckin_Hell"
+                    "Group 💬", url="https://t.me/MusicUpdates_Chat"
                 ),
                 InlineKeyboardButton(
-                    "Channel 📣", url="https://t.me/The_HellBot"
+                    "Channel 📣", url="https://t.me/Vinuth_BOTs"
                 )
             ]
         ]
@@ -40,7 +40,7 @@ async def start(_, message: Message):
 async def repo(_, message: Message):
     await message.reply_text(
         f"""🤠 Hoi!!
-I'm **{bn}** and below is the my source code 🙃
+I'm **{bn}** and below is the Updates Channel 🙃
 
 Happy Streaming 😉
 """,
@@ -48,13 +48,10 @@ Happy Streaming 😉
             [
                 [
                     InlineKeyboardButton(
-                        "Repo 📑", url="https://github.com/TheVaders/vc_bot"
+                        "Developer 👨‍💻", url="https://t.me/VinuthPMBot"
                     ),
                     InlineKeyboardButton(
-                        "Channel 📣", url="https://t.me/The_HellBot"
-                    ),
-                    InlineKeyboardButton (
-                        "Tutorial 🎬", url="https://youtu.be/XaH7VHURBVg"
+                        "Channel 📣", url="https://t.me/Vinuth_BOTs"
                     )
                 ]
             ]
